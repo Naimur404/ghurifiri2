@@ -1,0 +1,10 @@
+{
+    "id": "botble\toc",
+    "name": "Table of Content",
+    "namespace": "Botble\\ToC\\",
+    "provider": "Botble\\ToC\\Providers\\ToCServiceProvider",
+    "author": "Anh Ngo",
+    "url": "",
+    "version": "1.1",
+    "description": "Table of Contents"
+}

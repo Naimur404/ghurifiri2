@@ -1,0 +1,8 @@
+{
+    "name": "botble/ai-writer",
+    "description": "AI writer plugin - Content Generator & Writing Assistant Tools.",
+    "type": "package",
+    "require": {
+        "orhanerday/open-ai": "^3.4"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "botble/comment",
+    "description": "Comment plugin",
+    "type": "package",
+    "require": {}
+}

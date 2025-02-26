@@ -1,0 +1,10 @@
+{
+    "productId": "268E8466",
+    "source": "envato",
+    "apiUrl": "https://license.thesky9.com",
+    "apiKey": "EC3610AE9706B1510B0A",
+    "version": "4.0.0",
+    "marketplaceUrl": "https://marketplace.botble.com/api/v1",
+    "marketplaceToken": "998825451af1ec767f93ddf8aed44ff3e608a833",
+    "minimumPhpVersion": "8.2.0"
+}
