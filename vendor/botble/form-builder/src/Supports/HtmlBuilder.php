@@ -114,7 +114,7 @@ class HtmlBuilder
 
     public function favicon($url, $attributes = [], $secure = null): HtmlString
     {
-        $defaults = ['rel' => 'shortcut icon', 'type' => 'image/x-icon'];
+        $defaults = ['rel' => 'icon', 'type' => 'image/x-icon'];
 
         $attributes = array_merge($defaults, $attributes);
 

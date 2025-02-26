@@ -25,8 +25,10 @@ enum MediaType: string
     case IMAGE_X_WINDOWS_BMP = 'image/x-windows-bmp';
     case IMAGE_X_WIN_BITMAP = 'image/x-win-bitmap';
     case IMAGE_X_XBITMAP = 'image/x-xbitmap';
+    case IMAGE_X_BMP3 = 'image/x-bmp3';
     case IMAGE_TIFF = 'image/tiff';
     case IMAGE_JP2 = 'image/jp2';
+    case IMAGE_X_JP2_CODESTREAM = 'image/x-jp2-codestream';
     case IMAGE_JPX = 'image/jpx';
     case IMAGE_JPM = 'image/jpm';
     case IMAGE_HEIC = 'image/heic';
@@ -59,10 +61,12 @@ enum MediaType: string
             self::IMAGE_X_MS_BMP,
             self::IMAGE_X_XBITMAP,
             self::IMAGE_X_WINDOWS_BMP,
+            self::IMAGE_X_BMP3,
             self::IMAGE_X_WIN_BITMAP => Format::BMP,
             self::IMAGE_TIFF => Format::TIFF,
             self::IMAGE_JP2,
             self::IMAGE_JPX,
+            self::IMAGE_X_JP2_CODESTREAM,
             self::IMAGE_JPM => Format::JP2,
             self::IMAGE_HEIF,
             self::IMAGE_HEIC,

@@ -284,8 +284,6 @@ namespace Aws;
  * @method \Aws\MultiRegionClient createMultiRegionElastiCache(array $args = [])
  * @method \Aws\ElasticBeanstalk\ElasticBeanstalkClient createElasticBeanstalk(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionElasticBeanstalk(array $args = [])
- * @method \Aws\ElasticInference\ElasticInferenceClient createElasticInference(array $args = [])
- * @method \Aws\MultiRegionClient createMultiRegionElasticInference(array $args = [])
  * @method \Aws\ElasticLoadBalancing\ElasticLoadBalancingClient createElasticLoadBalancing(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionElasticLoadBalancing(array $args = [])
  * @method \Aws\ElasticLoadBalancingV2\ElasticLoadBalancingV2Client createElasticLoadBalancingV2(array $args = [])
@@ -366,10 +364,6 @@ namespace Aws;
  * @method \Aws\MultiRegionClient createMultiRegionInternetMonitor(array $args = [])
  * @method \Aws\Invoicing\InvoicingClient createInvoicing(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionInvoicing(array $args = [])
- * @method \Aws\IoT1ClickDevicesService\IoT1ClickDevicesServiceClient createIoT1ClickDevicesService(array $args = [])
- * @method \Aws\MultiRegionClient createMultiRegionIoT1ClickDevicesService(array $args = [])
- * @method \Aws\IoT1ClickProjects\IoT1ClickProjectsClient createIoT1ClickProjects(array $args = [])
- * @method \Aws\MultiRegionClient createMultiRegionIoT1ClickProjects(array $args = [])
  * @method \Aws\IoTAnalytics\IoTAnalyticsClient createIoTAnalytics(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionIoTAnalytics(array $args = [])
  * @method \Aws\IoTDeviceAdvisor\IoTDeviceAdvisorClient createIoTDeviceAdvisor(array $args = [])
@@ -815,7 +809,7 @@ namespace Aws;
  */
 class Sdk
 {
-    const VERSION = '3.336.3';
+    const VERSION = '3.340.1';
 
     /** @var array Arguments for creating clients */
     private $args;

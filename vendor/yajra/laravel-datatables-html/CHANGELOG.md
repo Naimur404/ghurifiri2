@@ -4,6 +4,15 @@
 
 ### UNRELEASED
 
+### v11.8.1 (2025-02-19)
+
+- fix: add missing exportRender property #233
+
+### v11.8.0 (2025-01-09)
+
+- feat: add Editor 2.4.0 tags field support #232
+- ci: static analysis
+
 ### v11.7.0 (2024-11-29)
 
 - feat: clone the "working" Fluent class from laravel #230
